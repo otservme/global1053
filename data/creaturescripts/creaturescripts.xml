@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+
+	<!-- Secret Service Quest -->
+	<event type="kill" name="SecretServiceBlackKnight" script="others/blackKnight.lua"/>
+
+	<!-- Spike Task: Drillworm -->
+	<event type="kill" name="SpikeDrillworm" script="spike task/drillworm.lua"/>
+
+	<!-- Thieves Guild Quest -->
+	<event type="kill" name="ThievesGuildNomad" script="others/nomad.lua"/>
+	
+	<!-- Pythius The Rotten -->
+	<event type="kill" name="pythiusDead" script="pythius the rotten/pythiusDead.lua" />
+
+	<!-- Gray Island -->
+	<event type="kill" name="bossesGrayIsland" script="gray island/bossesgrayisland.lua"/> 
+
+	<!-- The Elemental Spheres -->
+	<event type="death" name="ElementalSpheres" script="elemental spheres quest/the_elemental_spheres.lua"/>
+	<event type="kill" name="ElementalSpheresKill" script="elemental spheres quest/the_elemental_spheres.lua"/>
+	<event type="login" name="ElementalSpheresLogin" script="elemental spheres quest/the_elemental_spheres.lua"/>
+	
+	<!-- Gnomebase -->
+	<event type="kill" name="WarzoneTwo" script="gnomebase/warzone2.lua"/>
+	<event type="kill" name="WarzoneThree" script="gnomebase/warzone3.lua"/>
+	<event type="kill" name="bossesWarzone" script="gnomebase/bossesWarzone.lua"/> 
+
+	<!-- Svargrond Arena: Killing a boss -->
+	<event type="kill" name="SvargrondArenaKill" script="svargrond arena quest/arena_kill.lua"/>
+	
+	<!-- Pharaos: Portal to reward room -->
+	<event type="kill" name="PharaoKillPortal" script="others/pharaoPortal.lua"/>
+	
+	<!-- In Service Of Yalahar Quest -->
+	<event type="kill" name="inServiceOfYalaharQuestsDiseased" script="in service of yalahar quest/inServiceOfYalaharQuestsDiseased.lua"/>
+	<event type="kill" name="inServiceOfYalaharQuestsMorik" script="in service of yalahar quest/inServiceOfYalaharQuestsMorik.lua"/>
+	<event type="kill" name="inServiceOfYalaharQuestsQuara" script="in service of yalahar quest/inServiceOfYalaharQuestsQuara.lua"/>
+	
+	<!-- Inquisition Quest -->
+	<event type="kill" name="inquisitionQuestBosses" script="inquisition quest/inquisitionQuestBosses.lua"/>
+	<event type="kill" name="inquisitionQuestUngreez" script="inquisition quest/inquisitionQuestUngreez.lua"/>
+	
+	<!-- Killing In The Name Of Quest -->
+	<event type="kill" name="killingInTheNameOfQuestKills" script="killing in the name of quest/killingInTheNameOfQuestKills.lua"/>
+	<event type="kill" name="TaskCustom" script="killing in the name of quest/taskcustom.lua"/>
+
+	<!-- Raging Mage Tower -->
+	<event type="kill" name="Yielothax" script="raging mage tower/yielothax.lua"/>
+	<event type="kill" name="Energized" script="raging mage tower/energized.lua"/>
+	<event type="kill" name="Raging" script="raging mage tower/raging.lua"/>
+	
+	<!-- The Masters Voice Quest -->
+	<event type="kill" name="MastersVoiceServants" script="their master's voice quest/ServantsKill.lua"/>
+
+	<!-- Wrath of Emperor -->
+	<event type="kill" name="wrathBoss" script="wrath of the emperor quest/wrathOfTheEmperorQuestBoss.lua"/>
+	<event type="kill" name="wrathZalamon" script="wrath of the emperor quest/wrathOfTheEmperorQuestZalamon.lua"/>
+
+	<!-- Others -->
+	<event type="logout" name="Cast" script="others/cast.lua"/>
+	<event type="login" name="PlayerLogin" script="others/login.lua"/>
+	<event type="death" name="PlayerDeath" script="others/playerdeath.lua"/>
+	<event type="advance" name="AdvanceSave" script="others/advance_save.lua"/>
+	<event type="advance" name="AdvanceRook" script="others/advance_rook.lua"/>
+	<event type="advance" name="Recompense" script="others/recompense.lua"/>
+	<event type="login" name="AddonsMounts" script="others/addons-montarias.lua"/>
+	
+</creaturescripts>

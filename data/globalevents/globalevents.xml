@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<!-- Gray Island Bosses -->
+	<globalevent name="grayIslandBosses" type="startup" script="gray island/grayIslandBosses.lua"/>
+
+	<!-- Demon Oak Quest -->
+	<globalevent name="DemonOakVoices" interval="15000" script="demon oak quest/voices.lua"/>
+
+	<!-- Spawn -->
+	<globalevent name="horseSpawn" time="08:00" script="spawn/horse.lua"/>
+	<globalevent type="startup" name="RashidSpawn" script="spawn/RashidSpawn.lua"/>
+	<globalevent type="startup" name="CilliaSpawn" script="spawn/CilliaSpawn.lua"/>
+	
+	<!-- World Changes -->
+	<globalevent name="furyGate" type="startup" script="worldchanges/furygate.lua"/>
+	<globalevent name="horestis" time="05:05" script="worldchanges/horestis.lua"/>
+
+	<!-- Others -->
+	<globalevent type="startup" name="ServerStartup" script="others/startup.lua"/>
+	<globalevent type="record" name="PlayerRecord" script="others/record.lua"/>
+	<globalevent name="shop" interval="30000" script="others/shop.lua"/>
+	<globalevent name="warSystem" interval="3000000" script="others/warEnd.lua"/>
+	<globalevent name="globalSave" time="04:55" script="others/serverSave.lua"/>
+	<globalevent name="save" interval="1800000" script="others/save.lua"/>
+	<globalevent name="RentedMounts" interval="15000" script="others/checkMount.lua"/>
+	<globalevent name="cleanHouse" type="startup" script="others/cleanHouse.lua"/>
+	<globalevent name="griffinclawFlower" type="start" script="others/griffinclawFlower.lua"/>
+</globalevents>

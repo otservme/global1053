@@ -97,7 +97,7 @@ function Player:onMoveItem(item, count, fromPosition, toPosition)
 		end
 	end
 
-	if isInArray({1714, 1715, 1716, 1717, 1738, 1740, 1741, 1747, 1748, 1749}, item.itemid) and item.actionid > 0then
+	if isInArray({1714, 1715, 1716, 1717, 1738, 1740, 1741, 1747, 1748, 1749}, item.itemid) and item.actionid > 0 then
 		self:sendCancelMessage('You cannot move this object.')
 		self:getPosition():sendMagicEffect(CONST_ME_POFF)
 		return false
